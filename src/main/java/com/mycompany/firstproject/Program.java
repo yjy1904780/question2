@@ -21,19 +21,28 @@ public class Program
         //Your job is to fix the errors and finish them.
         
         //Print "Hello, World" to console
-        System.out.printf(Hello, World)
+        System.out.printf(Hello, World);
         
         //Read two numbers, then print the sum of them
+	int num1,num2,result;
         System.out.printf("Please enter first number: ");
-        int num1 = Integer.parseInt(stdin.nextline());
+        num1 = Integer.parseInt(stdin.nextline());
         
         System.out.printf("Please enter first number: ");
-        int num1 = Integer.parseInt(stin.nextLine());
+        num2 = Integer.parseInt(stdin.nextLine());
         
         int result = num1 + num2;
         
         System.out.printf("The result is: %d", result);
-        
+        String name;
+	String = nextLine;
+	System.out.printf("Please enter your name:");
+	int age;
+	age = Integer.parseInt(stdin.nextLine());
+	System.out.printf("Please enter your age:");
+
+	System.out.printf("%s,you will be %d in 10 years time.",name,age+10);
+
         //Ask the user for their name and age, then tell them how old they will be in 10 years.
         //For example, if the user says that their name is Jane and they are 25, the program should output:
         //"Jane, you will be 35 in 10 years time."
